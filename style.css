@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #232d34;
+}
+
+.container{
+    width: 600px;
+    height: 650px;
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+  /* <--------------Header----------------> */
+
+.head{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div img{
+    width: 32px;
+    height: 32px;
+}
+
+/* <-----------------main section -------------> */
+
+.main{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 55%;
+}
+.main .sign-in{
+    margin-bottom: 30px;
+    color: #d9d9d9;
+}
+button{
+    width: 100%;
+    height: 40px;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+button img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+/* <------------------- or section -------------> */
+
+.or-section{
+    width: 100%;
+    text-align: center;
+    color: #d9d9d9;
+    margin-bottom: 20px;
+}
+
+/* <---------------input section --------------> */
+
+form input{
+    width: 315px;
+    height: 65px;
+    border-radius: 5px;
+    border: 1px solid #313235;
+    outline: none;
+    background-color: #000000;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in;
+}
+
+form input:focus{
+    border: 2px solid #2172ab;
+}
+
+form input::placeholder{
+    font-size: 18px;
+}
+
+.forget{
+   border: 2px solid #31383e; 
+   background: transparent;
+   color: #eff3f4;
+   margin-bottom: 50px;
+   transition: all 0.3s ease-in;
+}
+
+.forget:hover{
+    background: rgba(239, 243, 244,0.1);
+}
+
+/* <------------footer---------------------> */
+
+.sign-up{
+    color: #565a5c ;
+}
+
+.link{
+    text-decoration: none;
+    color: #2172ab;
+    font-family: 'Roboto', sans-serif;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
